@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #FFC107;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.cta-button:hover {
+  background: #e0a800;
+}
+
+/* Features Section Styles */
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background: #f8f9fa;
+  flex-wrap: wrap;
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.feature img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer Section Styles */
+.footer-section {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+}
+
+.contact-details a {
+  color: #FFC107;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}

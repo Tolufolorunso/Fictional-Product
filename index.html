@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Fictional Product</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Hero Section Styles */
+      .hero {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      .hero h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+      }
+
+      .cta-button {
+        background-color: #e74c3c;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .cta-button:hover {
+        background-color: #c0392b;
+      }
+
+      /* Features Section Styles */
+      .features {
+        padding: 40px 20px;
+        background-color: #ecf0f1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .feature-item {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .feature-item img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+      }
+
+      .feature-item h3 {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+      }
+
+      .feature-item p {
+        font-size: 1em;
+        color: #7f8c8d;
+      }
+
+      /* Footer Section Styles */
+      footer {
+        background-color: #34495e;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      footer a {
+        color: #e74c3c;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2em;
+        }
+
+        .hero p {
+          font-size: 1em;
+        }
+
+        .features {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Objective 1: Create a Hero Section -->
+    <!-- Includes a headline, subheadline, and CTA button -->
+    <header class="hero">
+      <h1>Welcome to Horizon</h1>
+      <p>Unlock your potential with our cutting-edge productivity suite.</p>
+      <button class="cta-button">Sign Up Now</button>
+    </header>
+
+    <!-- Objective 2: Build a Responsive Features Section -->
+    <!-- Three-column layout with icons, titles, and descriptions -->
+    <section class="features">
+      <div class="feature-item">
+        <img src="https://picsum.photos/60/60?random=1" alt="Feature 1 Icon" />
+        <h3>Task Mastery</h3>
+        <p>Organize your tasks effortlessly and stay on top of your goals.</p>
+      </div>
+      <div class="feature-item">
+        <img src="https://picsum.photos/60/60?random=2" alt="Feature 2 Icon" />
+        <h3>Collaboration</h3>
+        <p>Work seamlessly with your team in real-time, anywhere.</p>
+      </div>
+      <div class="feature-item">
+        <img src="https://picsum.photos/60/60?random=3" alt="Feature 3 Icon" />
+        <h3>Analytics</h3>
+        <p>Gain insights with powerful data-driven reports.</p>
+      </div>
+    </section>
+
+    <!-- Objective 3: Design a Footer Section -->
+    <!-- Includes contact details and copyright info -->
+    <footer>
+      <p>
+        Contact us:
+        <a href="mailto:support@horizon.com">support@horizon.com</a> |
+        +1-800-HORIZON
+      </p>
+      <p>Follow us on <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+      <p>&copy; 2025 Horizon. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
